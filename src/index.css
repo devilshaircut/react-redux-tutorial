@@ -13,3 +13,56 @@ body {
 button:disabled {
   opacity: 0.5;
 }
+
+
+/* Tutorial Overrides */
+
+body {
+  font-family: 'Merriweather Sans', 'Source Sans Pro', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+ol,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: normal;
+}
+
+span.ns-badge {
+  display: block;
+  float: left;
+  min-width: 14px;
+  height: 20px;
+  padding: 0 7px;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 11px;
+  line-height: 18px;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  color: #f8f9cc;
+  background: #f4ae08;
+  border-radius: 20px;
+}
+
+#ns-tutorial {
+  position: relative;
+}

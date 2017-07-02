@@ -1,0 +1,633 @@
+{
+  "Segment Header One": {
+    "Navigation Item 1": {
+      "link": "/",
+      "icon": "Layers",
+      "alerts": 50,
+      "subMenu": {
+        "Nav1 Overview": {
+          "link": "/",
+          "action": null
+        },
+        "Nav1 Item 1": {
+          "link": "/settings",
+          "action": null
+        },
+        "Nav1 Item 2": {
+          "link": "/",
+          "action": null
+        },
+        "Nav1 Item 3": {
+          "link": "/",
+          "action": null
+        },
+        "Nav1 Item 4": {
+          "link": "/",
+          "action": null
+        },
+        "Nav1 Item 5": {
+          "link": "/",
+          "action": null
+        }
+      }
+    },
+    "Navigation Item 2": {
+      "link": "/settings",
+      "icon": "Rows",
+      "alerts": 50,
+      "subMenu": {
+        "Nav2 Overview": {
+          "link": "/",
+          "action": null
+        },
+        "Nav2 Item 1": {
+          "link": "/",
+          "action": null
+        },
+        "Nav2 Item 2": {
+          "link": "/",
+          "action": null
+        },
+        "Nav2 Item 3": {
+          "link": "/",
+          "action": null
+        },
+        "Nav2 Item 4": {
+          "link": "/",
+          "action": null
+        },
+        "Nav2 Item 5": {
+          "link": "/",
+          "action": null
+        }
+      }
+    },
+    "Navigation Item 3": {
+      "link": "/",
+      "icon": "Grid",
+      "alerts": 50,
+      "subMenu": {
+        "Nav3 Overview": {
+          "link": "/",
+          "action": null
+        },
+        "Nav3 Item 1": {
+          "link": "/",
+          "action": null
+        },
+        "Nav3 Item 2": {
+          "link": "/",
+          "action": null
+        },
+        "Nav3 Item 3": {
+          "link": "/",
+          "action": null
+        },
+        "Nav3 Item 4": {
+          "link": "/",
+          "action": null
+        },
+        "Nav3 Item 5": {
+          "link": "/",
+          "action": null
+        }
+      }
+    },
+    "Navigation Item 4": {
+      "link": "/",
+      "icon": "Compose",
+      "alerts": 50,
+      "subMenu": {
+        "Nav4 Overview": {
+          "link": "/",
+          "action": null
+        },
+        "Nav4 Item 1": {
+          "link": "/",
+          "action": null
+        },
+        "Nav4 Item 2": {
+          "link": "/",
+          "action": null
+        },
+        "Nav4 Item 3": {
+          "link": "/",
+          "action": null
+        },
+        "Nav4 Item 4": {
+          "link": "/",
+          "action": null
+        },
+        "Nav4 Item 5": {
+          "link": "/",
+          "action": null
+        }
+      }
+    }
+  },
+  "Segment Header Two": {
+    "Navigation Item 5": {
+      "link": "/",
+      "icon": "Picture",
+      "alerts": 50,
+      "subMenu": {
+        "Nav5 Overview": {
+          "link": "/",
+          "action": null
+        },
+        "Nav5 Item 1": {
+          "link": "/",
+          "action": null
+        },
+        "Nav5 Item 2": {
+          "link": "/",
+          "action": null
+        },
+        "Nav5 Item 3": {
+          "link": "/",
+          "action": null
+        },
+        "Nav5 Item 4": {
+          "link": "/",
+          "action": null
+        },
+        "Nav5 Item 5": {
+          "link": "/",
+          "action": null
+        }
+      }
+    },
+    "Navigation Item 6": {
+      "link": "/",
+      "icon": "Sample",
+      "alerts": 50,
+      "subMenu": {
+        "Submenu Overview": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 1": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 2": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 3": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 4": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 5": {
+          "link": "/",
+          "action": null
+        }
+      }
+    },
+    "Navigation Item 7": {
+      "link": "/",
+      "icon": "Font",
+      "alerts": 50,
+      "subMenu": {
+        "Submenu Overview": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 1": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 2": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 3": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 4": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 5": {
+          "link": "/",
+          "action": null
+        }
+      }
+    },
+    "Navigation Item 8": {
+      "link": "/",
+      "icon": "User",
+      "alerts": 50,
+      "subMenu": {
+        "Submenu Overview": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 1": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 2": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 3": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 4": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 5": {
+          "link": "/",
+          "action": null
+        }
+      }
+    }
+  },
+  "Segment Header Three": {
+    "Navigation Item 9": {
+      "link": "/",
+      "icon": "Layers",
+      "alerts": 50,
+      "subMenu": {
+        "Submenu Overview": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 1": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 2": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 3": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 4": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 5": {
+          "link": "/",
+          "action": null
+        }
+      }
+    },
+    "Navigation Item 10": {
+      "link": "/settings",
+      "icon": "Rows",
+      "alerts": 50,
+      "subMenu": {
+        "Submenu Overview": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 1": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 2": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 3": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 4": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 5": {
+          "link": "/",
+          "action": null
+        }
+      }
+    },
+    "Navigation Item 11": {
+      "link": "/",
+      "icon": "Grid",
+      "alerts": 50,
+      "subMenu": {
+        "Submenu Overview": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 1": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 2": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 3": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 4": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 5": {
+          "link": "/",
+          "action": null
+        }
+      }
+    },
+    "Navigation Item 12": {
+      "link": "/",
+      "icon": "Compose",
+      "alerts": 50,
+      "subMenu": {
+        "Submenu Overview": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 1": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 2": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 3": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 4": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 5": {
+          "link": "/",
+          "action": null
+        }
+      }
+    }
+  },
+  "Segment Header Four": {
+    "Navigation Item 13": {
+      "link": "/",
+      "icon": "Picture",
+      "alerts": 50,
+      "subMenu": {
+        "Submenu Overview": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 1": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 2": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 3": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 4": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 5": {
+          "link": "/",
+          "action": null
+        }
+      }
+    },
+    "Navigation Item 14": {
+      "link": "/",
+      "icon": "Sample",
+      "alerts": 50,
+      "subMenu": {
+        "Submenu Overview": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 1": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 2": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 3": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 4": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 5": {
+          "link": "/",
+          "action": null
+        }
+      }
+    },
+    "Navigation Item 15": {
+      "link": "/",
+      "icon": "Font",
+      "alerts": 50,
+      "subMenu": {
+        "Submenu Overview": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 1": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 2": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 3": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 4": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 5": {
+          "link": "/",
+          "action": null
+        }
+      }
+    },
+    "Navigation Item 16": {
+      "link": "/",
+      "icon": "User",
+      "alerts": 50,
+      "subMenu": {
+        "Submenu Overview": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 1": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 2": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 3": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 4": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 5": {
+          "link": "/",
+          "action": null
+        }
+      }
+    }
+  },
+  "Segment Header Five": {
+    "Navigation Item 17": {
+      "link": "/",
+      "icon": "Picture",
+      "alerts": 50,
+      "subMenu": {
+        "Submenu Overview": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 1": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 2": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 3": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 4": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 5": {
+          "link": "/",
+          "action": null
+        }
+      }
+    },
+    "Navigation Item 18": {
+      "link": "/",
+      "icon": "Sample",
+      "alerts": 50,
+      "subMenu": {
+        "Submenu Overview": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 1": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 2": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 3": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 4": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 5": {
+          "link": "/",
+          "action": null
+        }
+      }
+    },
+    "Navigation Item 19": {
+      "link": "/",
+      "icon": "Font",
+      "alerts": 50,
+      "subMenu": {
+        "Submenu Overview": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 1": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 2": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 3": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 4": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 5": {
+          "link": "/",
+          "action": null
+        }
+      }
+    },
+    "Navigation Item 20": {
+      "link": "/",
+      "icon": "User",
+      "alerts": 50,
+      "subMenu": {
+        "Submenu Overview": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 1": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 2": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 3": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 4": {
+          "link": "/",
+          "action": null
+        },
+        "Submenu Item 5": {
+          "link": "/",
+          "action": null
+        }
+      }
+    }
+  }
+}
+

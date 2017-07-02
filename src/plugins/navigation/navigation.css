@@ -1,0 +1,293 @@
+nav#ns-navigation {
+  display: block;
+  float: left;
+  width: 257px;
+  min-width: 257px;
+  background: #333841;
+  font-size: 11px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  position: absolute;
+  top: 0;
+  transition-delay: 0s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0, 1);
+  transition-property: all;
+  transition-duration: 0.2s;
+}
+nav#ns-navigation > #ns-navigation-top-bar {
+  display: block;
+  float: left;
+  width: 257px;
+  min-width: 257px;
+  height: 71px;
+  padding: 0 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.13);
+  background: #333841;
+  cursor: pointer;
+  position: fixed;
+  z-index: 635;
+  transition-delay: 0s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0, 1);
+  transition-property: all;
+  transition-duration: 0.2s
+}
+nav#ns-navigation > #ns-navigation-top-bar > #ns-hamburger-icon {
+  display: block;
+  width: 25px;
+  height: 4px;
+  margin: 25px 0 0 0;
+  background: #96f5e2;
+  border-radius: 4px;
+  position: relative;
+}
+nav#ns-navigation > #ns-navigation-top-bar > #ns-hamburger-icon::before {
+  display: block;
+  width: 25px;
+  height: 4px;
+  content: "";
+  background: #96f5e2;
+  border-radius: 4px;
+  position: relative;
+  top: 8px;
+}
+nav#ns-navigation > #ns-navigation-top-bar > #ns-hamburger-icon::after {
+  display: block;
+  width: 25px;
+  height: 4px;
+  content: "";
+  background: #96f5e2;
+  border-radius: 4px;
+  position: relative;
+  top: 12px;
+}
+
+
+
+
+nav#ns-navigation > #ns-navigation-segments {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 89px 0 0 0;
+  background: #333841;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: relative;
+}
+nav#ns-navigation > #ns-navigation-segments > h4.ns-navigation-header {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 0 20px;
+  margin: 10px 0 5px 0;
+  white-space: nowrap;
+  box-sizing: border-box;
+  transition-delay: 0s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0, 1);
+  transition-property: all;
+  transition-duration: 0.2s;
+}
+nav#ns-navigation > #ns-navigation-segments > h4.ns-navigation-header > span {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 0 0 3px 0;
+  margin: 0 0 3px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.13);
+  font-size: 9px;
+  line-height: 15px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition-delay: 0s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0, 1);
+  transition-property: all;
+  transition-duration: 0.2s;
+}
+nav#ns-navigation > #ns-navigation-segments > ol.ns-navigation-segment {
+  display: block;
+  float: left;
+  width: 100%;
+  margin: 0 0 8px 0;
+  transition-delay: 0s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0, 1);
+  transition-property: all;
+  transition-duration: 0.2s;
+}
+nav#ns-navigation > #ns-navigation-segments > ol.ns-navigation-segment > li {
+  display: block;
+  float: left;
+  width: 100%;
+}
+nav#ns-navigation > #ns-navigation-segments > ol.ns-navigation-segment > li:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+nav#ns-navigation > #ns-navigation-segments > ol.ns-navigation-segment > li.ns-navigation-item-current {
+  background: rgba(0, 0, 0, 0.2);
+}
+nav#ns-navigation > #ns-navigation-segments > ol.ns-navigation-segment > li > span.ns-navigation-segment-item {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 10px 20px;
+  cursor: pointer;
+  position: relative;
+}
+nav#ns-navigation > #ns-navigation-segments > ol.ns-navigation-segment > li > span.ns-navigation-segment-item::after {
+  display: block;
+  float: left;
+  width: 0;
+  content: "";
+  height: 40px;
+  background: #96f5e2;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  transition-delay: 0s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0, 1);
+  transition-property: all;
+  transition-duration: 0.2s;
+}
+nav#ns-navigation > #ns-navigation-segments > ol.ns-navigation-segment > li.ns-navigation-item-current > span.ns-navigation-segment-item::after,
+nav#ns-navigation > #ns-navigation-segments > ol.ns-navigation-segment > li:hover > span.ns-navigation-segment-item::after {
+  width: 100%;
+  left: -99%;
+  opacity: 1;
+}
+nav#ns-navigation > #ns-navigation-segments > ol.ns-navigation-segment > li > span.ns-navigation-segment-item > span.ss-icon {
+  display: inline-block;
+  width: auto;
+  padding: 0;
+  margin: 0 5px 0 0;
+  color: #96f5e2;
+  font-size: 12px;
+  line-height: 20px;
+  position: relative;
+  top: 2px;
+  transition-delay: 0s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0, 1);
+  transition-property: all;
+  transition-duration: 0.2s;
+}
+nav#ns-navigation > #ns-navigation-segments > ol.ns-navigation-segment > li > span.ns-navigation-segment-item > span.ns-navigation-label {
+  position: relative;
+  left: 0;
+  opacity: 1;
+  transition-delay: 0s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0, 1);
+  transition-property: all;
+  transition-duration: 0.2s;
+}
+nav#ns-navigation > #ns-navigation-segments > ol.ns-navigation-segment > li > span.ns-navigation-segment-item > span.ns-badge {
+  display: block;
+  float: right;
+  position: relative;
+  top: -1px;
+  transition-delay: 0s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0, 1);
+  transition-property: all;
+  transition-duration: 0.2s;
+}
+
+nav#ns-navigation > #ns-navigation-submenu.ns-navigation-submenu-expanded {
+  left: 257px;
+}
+nav#ns-navigation > #ns-navigation-submenu {
+  display: block;
+  height: 100%;
+  width: 257px;
+  background: #808080;
+  position: fixed;
+  left: -257px;
+  top: 0;
+}
+nav#ns-navigation > #ns-navigation-submenu > h5.ns-navigation-submenu-header {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 0 20px;
+  margin: 52px 0 3px 0;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+nav#ns-navigation > #ns-navigation-submenu > h5.ns-navigation-submenu-header > span {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 0 0 3px 0;
+  margin: 0 0 3px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.13);
+  font-size: 9px;
+  line-height: 15px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+nav#ns-navigation > #ns-navigation-submenu > ol {
+  display: block;
+  float: left;
+  width: 100%;
+}
+nav#ns-navigation > #ns-navigation-submenu > ol > li {
+  display: block;
+  float: left;
+  width: 100%;
+}
+nav#ns-navigation > #ns-navigation-submenu > ol > li > a {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 10px 20px;
+  color: inherit;
+}
+nav#ns-navigation > #ns-navigation-submenu > ol > li > span {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 10px 20px;
+  color: inherit;
+}
+nav#ns-navigation > #ns-navigation-submenu > ol > li > a:hover,
+nav#ns-navigation > #ns-navigation-submenu > ol > li > span:hover {
+  background: rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+}
+
+
+
+nav#ns-navigation.ns-navigation-collapsed {
+  width: 65px;
+  min-width: 65px;
+}
+nav#ns-navigation.ns-navigation-collapsed > #ns-navigation-top-bar {
+  width: 65px;
+  min-width: 65px;
+}
+nav#ns-navigation.ns-navigation-collapsed > #ns-navigation-segments > h4.ns-navigation-header {
+  width: 257px;
+}
+nav#ns-navigation.ns-navigation-collapsed > #ns-navigation-segments > h4.ns-navigation-header > span {
+  opacity: 0;
+}
+nav#ns-navigation.ns-navigation-collapsed > #ns-navigation-segments > ol.ns-navigation-segment {
+  width: 257px;
+}
+nav#ns-navigation.ns-navigation-collapsed > #ns-navigation-segments > ol.ns-navigation-segment > li > a > span.ss-icon,
+nav#ns-navigation.ns-navigation-collapsed > #ns-navigation-segments > ol.ns-navigation-segment > li > span.ns-navigation-segment-item > span.ss-icon {
+  padding: 0 0 0 5px;
+}
+nav#ns-navigation.ns-navigation-collapsed > #ns-navigation-segments > ol.ns-navigation-segment > li > a > span.ns-navigation-label,
+nav#ns-navigation.ns-navigation-collapsed > #ns-navigation-segments > ol.ns-navigation-segment > li > span.ns-navigation-segment-item > span.ns-navigation-label {
+  left: 50px;
+  opacity: 0;
+  transition-delay: 0s !important;
+}
+nav#ns-navigation.ns-navigation-collapsed > #ns-navigation-segments > ol.ns-navigation-segment > li > a > span.ns-badge,
+nav#ns-navigation.ns-navigation-collapsed > #ns-navigation-segments > ol.ns-navigation-segment > li > span.ns-navigation-segment-item > span.ns-badge {
+  opacity: 0;
+}
+
+
+
