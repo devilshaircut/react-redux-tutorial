@@ -1,15 +1,9 @@
-import React from 'react'
-import { render } from 'react-dom'
-import App from './containers/app'
+// --------------------------------------------------
+// Module imports go here:
+// --------------------------------------------------
 
-import 'sanitize.css/sanitize.css'
-import './index.css'
 
-const target = document.querySelector('#root')
+// --------------------------------------------------
+// Initial React render() goes here:
+// --------------------------------------------------
 
-render(
-  <div>
-    <App />
-  </div>,
-  target
-)
