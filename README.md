@@ -36,7 +36,7 @@ This codebase will teach you how to integrate react-router and Redux. It uses cr
     - Configure routing. Link the Tutorial component into the App component's router.
     - Use the reference HTML in /react-redux-tutorial/src/containers/reference/index.js to emit HTML.
 - **Segment 4.1 (Tutorial): A Navigation Component - Redux:**
-    - Create a basic action.
+    - Create a basic action for toggling the collapse state of the navigation.
     - Create the reducer and handle the case of your basic action.
     - Connect your action to your component.
         - Import module.
