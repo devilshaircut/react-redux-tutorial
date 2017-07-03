@@ -37,14 +37,24 @@ This codebase will teach you how to integrate react-router and Redux. It uses cr
     - Use the reference HTML in /react-redux-tutorial/src/containers/reference/index.js to emit HTML.
 - **Segment 4.1 (Tutorial): A Navigation Component - Redux:**
     - Create a basic action for toggling the collapse state of the navigation.
+        - (The state will just be a property on navigation state that is a boolean.)
+        - (This boolean state will be used to tell the component render with or without the CSS class that determines collapsed/not-collapsed presentation.)
+        - Create the action constants, action constructor, and the action function.
     - Create the reducer and handle the case of your basic action.
-    - Connect your action to your component.
-        - Import module.
-        - Callback function.
-        - Map state to props.
-        - Map props to dispatch.
-        - Connect these to Redux.
+        - Enumerate the component's initial state.
+        - Write the reducer.
+            - Handle the toggle action case.
+            - Handle the default case.
     - Add your reducer to the root reducer.
+    - Connect your action to your component.
+        - Import necessary methods (connect and bindActionCreators, respectively) from redux and react-redux.
+        - Import action.
+        - Map state (Redux state) to component props.
+        - Map actions to component props (dispatch).
+        - Connect state and dispatch to Redux.
+            - (This creates a higher order component - it sort of 'decorates' your base component with the powers of Redux, so your component can concern itself solely (ideally) with formatting HTML.)
+        - Add in the condition that looks at collapse state and decides whether or not to add on the CSS class for collapsed/not-collapsed state.
+        - Add in the event handler.
 
 
 
