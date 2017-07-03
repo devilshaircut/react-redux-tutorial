@@ -3,7 +3,7 @@
 // --------------------------------------------------
 
 import React from 'react'
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { Route } from 'react-router-dom'
 
 import Home from '../home'
 
@@ -14,11 +14,9 @@ import Home from '../home'
 
 const App = () => {
   return(
-    <Provider store={store}>
-      <ConnectedRouter history={history}>
-        <Route exact path='/' component={Home}/>
-      </ConnectedRouter>
-    </Provider>
+    <main>
+      <Route exact path='/' component={Home}/>
+    </main>
   )
 }
 
