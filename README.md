@@ -16,6 +16,7 @@ This codebase will teach you how to integrate react-router and Redux. It uses cr
 
 - **Segment 1.0: Your First View:**
     - Identify entry point into the React app.
+    - Render react in index.js.
     - Create first React component, "App".
         - This component is the parent component of all other components.
         - It will also contain the router.
