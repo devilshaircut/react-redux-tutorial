@@ -39,7 +39,7 @@ This codebase will teach you how to integrate react-router and Redux. It uses cr
     - Create a basic action for toggling the collapse state of the navigation.
         - (The state will just be a property on navigation state that is a boolean.)
         - (This boolean state will be used to tell the component render with or without the CSS class that determines collapsed/not-collapsed presentation.)
-        - Create the action constants, action constructor, and the action function.
+        - Create the action constants, action constructor, and the action function/callback.
     - Create the reducer and handle the case of your basic action.
         - Enumerate the component's initial state.
         - Write the reducer.
@@ -55,7 +55,31 @@ This codebase will teach you how to integrate react-router and Redux. It uses cr
             - (This creates a higher order component - it sort of 'decorates' your base component with the powers of Redux, so your component can concern itself solely (ideally) with formatting HTML.)
         - Add in the condition that looks at collapse state and decides whether or not to add on the CSS class for collapsed/not-collapsed state.
         - Add in the event handler.
-
+- **Segment 5.0 (Tutorial): AJAX and Using AJAX in Redux:**
+    - Import our RESTful action from Axios.
+    - In our navigation reducer, add in additional states for our navigation component. We need to handle various contingencies related to asynchronous web transactions:
+        - We would like to know if the component is waiting on a change related to an AJAX call (useful for making something like a throbber).
+        - We would like to know if our AJAX call returned an error and what that error is.
+        - We would like to know the actual payload the AJAX returned - for use in our component!
+    - In our navigation actions, we need to create additional actions related to AJAX. As with typical AJAX patterns, we need to handle:
+        - the AJAX request,
+        - a success callback,
+        - and a failure callback.
+    - Create the action constants and action constructor or each of these.
+    - Create the action function/callback which performs the AJAX request.
+        - We immediately want to notify state that it is waiting on an asynchronous action; dispatch the related action.
+        - We then want to actually perform the AJAX call using Axios.
+        - Using the Promise pattern (available natively in ES6), perform the AJAX request and handle the success and error cases.
+    - Move back to our navigation reducer.
+        - Import our new actions.
+        - Handle each action inside of the reducer.
+    - Inside of our component, we need to actually initate the AJAX request.
+        - Import our new action function/callback which performs the AJAX request.
+        - Also map this action to props.
+        - Map the new states (which we created in our reducer) to props.
+        - Inside of our component class, apply our action function/callback when React mounts our component.
+    - For the purposes of confirming everything works correctly, you can `console.log()` inside of the reducer; but delete this after you've confirmed it works.
+- **Segment 5.1 (Tutorial): Rendering HTML with JSX:**
 
 
 

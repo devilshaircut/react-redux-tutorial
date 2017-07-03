@@ -8,6 +8,7 @@ import { bindActionCreators } from 'redux'
 
 import {
   performToggleNavigationCollapse,
+  performRequestNavigationContent,
 } from './actions/navigationActions'
 
 import './navigation.css'
@@ -18,6 +19,9 @@ import './navigation.css'
 // --------------------------------------------------
 
 class Navigation extends Component {
+  componentWillMount() {
+    this.props.performRequestNavigationContent();
+  }
   render() {
     return(
       <nav id="ns-navigation" className={this.props.collapsed ? 'ns-navigation-collapsed' : ''}>
@@ -79,10 +83,14 @@ class Navigation extends Component {
 
 const mapStateToProps = state => ({
   collapsed: state.navigation.collapsed,
+  isFetching: state.navigation.isFetching,
+  error: state.navigation.error,
+  content: state.navigation.content,
 });
 
 const mapDispatchToProps = dispatch => bindActionCreators({
   performToggleNavigationCollapse,
+  performRequestNavigationContent,
 }, dispatch);
 
 

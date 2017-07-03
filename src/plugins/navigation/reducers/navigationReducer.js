@@ -4,6 +4,9 @@
 
 import {
   TOGGLE_NAVIGATION_COLLAPSE,
+  REQUEST_NAVIGATION_CONTENT_ACTION,
+  REQUEST_NAVIGATION_CONTENT_SUCCESS,
+  REQUEST_NAVIGATION_CONTENT_FAILURE,
 } from '../actions/navigationActions'
 
 
@@ -13,6 +16,9 @@ import {
 
 const initialState = {
   collapsed: true,
+  isFetching: false,
+  error: null,
+  content: null,
 }
 
 
@@ -28,6 +34,25 @@ export default (reduxState = initialState, action) => {
         ...reduxState,
         collapsed: !reduxState.collapsed,
       };
+    case REQUEST_NAVIGATION_CONTENT_ACTION:
+      return {
+        ...reduxState,
+        isFetching: true,
+        error: null,
+      }
+    case REQUEST_NAVIGATION_CONTENT_SUCCESS:
+      return {
+        ...reduxState,
+        content: action.payload.data,
+        isFetching: false,
+        error: null,
+      }
+    case REQUEST_NAVIGATION_CONTENT_FAILURE:
+      return {
+        ...reduxState,
+        isFetching: false,
+        error: action.payload.error,
+      }
     default: 
       return reduxState;
   }
