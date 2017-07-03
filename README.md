@@ -92,6 +92,12 @@ This codebase will teach you how to integrate react-router and Redux. It uses cr
         - First, we loop through the outer segments and build an array that represents the parent level (segment headers and segment items wrappers).
         - For each item in this array, we will look at the child content (the list items) and build this repeating list HTML.
         - We will use a helper function to build each list item.
+- **How might we upgrade this component further?**
+    - Segment 6.0 (Tutorial): Adding 'current place' indicators.
+    - Segment 7.0 (Tutorial): Adding a submenu and other advanced states.
+    - Other upgrades not related directly to React:
+        - Make it responsive.
+
 
 
 
