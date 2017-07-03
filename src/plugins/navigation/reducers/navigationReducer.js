@@ -4,7 +4,7 @@
 
 import {
   TOGGLE_NAVIGATION_COLLAPSE,
-} from '../actions/navigationActions';
+} from '../actions/navigationActions'
 
 
 // --------------------------------------------------
@@ -13,7 +13,7 @@ import {
 
 const initialState = {
   collapsed: true,
-};
+}
 
 
 // --------------------------------------------------
@@ -31,5 +31,5 @@ export default (reduxState = initialState, action) => {
     default: 
       return reduxState;
   }
-};
+}
 

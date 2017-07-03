@@ -7,7 +7,7 @@
 // Action constants go here:
 // --------------------------------------------------
 
-export const TOGGLE_NAVIGATION_COLLAPSE = 'TOGGLE_NAVIGATION_COLLAPSE';
+export const TOGGLE_NAVIGATION_COLLAPSE = 'TOGGLE_NAVIGATION_COLLAPSE'
 
 
 // --------------------------------------------------
@@ -18,7 +18,7 @@ const toggleNavigationCollapse = () => (
   {
     type: 'TOGGLE_NAVIGATION_COLLAPSE',
   }
-);
+)
 
 
 // --------------------------------------------------
@@ -27,7 +27,7 @@ const toggleNavigationCollapse = () => (
 
 export const performToggleNavigationCollapse = () => {
   return dispatch => {
-    dispatch(toggleNavigationCollapse());
+    dispatch(toggleNavigationCollapse())
   }
-};
+}
 
