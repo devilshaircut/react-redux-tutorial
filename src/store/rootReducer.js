@@ -7,7 +7,7 @@ import { routerReducer } from 'react-router-redux'
 
 
 // --------------------------------------------------
-// Combine reducers here:
+// Combine reducers here and export:
 // --------------------------------------------------
 
 export default combineReducers({
