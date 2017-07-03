@@ -39,7 +39,7 @@ This codebase will teach you how to integrate react-router and Redux. It uses cr
     - Create a basic action for toggling the collapse state of the navigation.
         - (The state will just be a property on navigation state that is a boolean.)
         - (This boolean state will be used to tell the component render with or without the CSS class that determines collapsed/not-collapsed presentation.)
-        - Create the action constants, action constructor, and the action function.
+        - Create the action constants, action constructor, and the action function/callback.
     - Create the reducer and handle the case of your basic action.
         - Enumerate the component's initial state.
         - Write the reducer.
@@ -55,8 +55,4 @@ This codebase will teach you how to integrate react-router and Redux. It uses cr
             - (This creates a higher order component - it sort of 'decorates' your base component with the powers of Redux, so your component can concern itself solely (ideally) with formatting HTML.)
         - Add in the condition that looks at collapse state and decides whether or not to add on the CSS class for collapsed/not-collapsed state.
         - Add in the event handler.
-- **Segment 5.0 (Tutorial): AJAX and Using AJAX in Redux:**
-- **Segment 5.1 (Tutorial): Rendering HTML with JSX:**
-
-
 
