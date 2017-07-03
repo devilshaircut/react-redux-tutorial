@@ -6,6 +6,7 @@ import React from 'react'
 import { Route } from 'react-router-dom'
 
 import Home from '../home'
+import Tutorial from '../tutorial'
 
 
 // --------------------------------------------------
@@ -16,6 +17,7 @@ const App = () => {
   return(
     <main>
       <Route exact path='/' component={Home}/>
+      <Route exact path='/tutorial' component={Tutorial}/>
     </main>
   )
 }

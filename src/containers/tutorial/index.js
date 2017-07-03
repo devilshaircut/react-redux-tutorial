@@ -1,14 +1,23 @@
 // --------------------------------------------------
-// Module imports goes here:
+// Module imports go here:
 // --------------------------------------------------
+
+import React from 'react'
 
 
 // --------------------------------------------------
 // Component declaration goes here:
 // --------------------------------------------------
 
+const Tutorial = () => {
+  return(
+    <h1>Tutorial view!</h1>
+  )
+}
 
 // --------------------------------------------------
-// Module exports goes here:
+// Module exports go here:
 // --------------------------------------------------
+
+export default Tutorial
 
