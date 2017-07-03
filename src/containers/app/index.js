@@ -14,11 +14,11 @@ import Home from '../home'
 
 const App = () => {
   return(
-    <BrowserRouter>
-      <Switch>
+    <Provider store={store}>
+      <ConnectedRouter history={history}>
         <Route exact path='/' component={Home}/>
-      </Switch>
-    </BrowserRouter>
+      </ConnectedRouter>
+    </Provider>
   )
 }
 
