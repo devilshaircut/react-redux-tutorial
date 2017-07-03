@@ -79,7 +79,4 @@ This codebase will teach you how to integrate react-router and Redux. It uses cr
         - Map the new states (which we created in our reducer) to props.
         - Inside of our component class, apply our action function/callback when React mounts our component.
     - For the purposes of confirming everything works correctly, you can `console.log()` inside of the reducer; but delete this after you've confirmed it works.
-- **Segment 5.1 (Tutorial): Rendering HTML with JSX:**
-
-
 
