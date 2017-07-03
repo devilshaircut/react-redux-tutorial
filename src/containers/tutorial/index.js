@@ -4,6 +4,8 @@
 
 import React from 'react'
 
+import Navigation from '../../plugins/navigation/navigation'
+
 
 // --------------------------------------------------
 // Component declaration goes here:
@@ -11,7 +13,7 @@ import React from 'react'
 
 const Tutorial = () => {
   return(
-    <h1>Tutorial view!</h1>
+    <Navigation />
   )
 }
 
