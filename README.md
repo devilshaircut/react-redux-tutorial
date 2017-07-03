@@ -55,7 +55,8 @@ This codebase will teach you how to integrate react-router and Redux. It uses cr
             - (This creates a higher order component - it sort of 'decorates' your base component with the powers of Redux, so your component can concern itself solely (ideally) with formatting HTML.)
         - Add in the condition that looks at collapse state and decides whether or not to add on the CSS class for collapsed/not-collapsed state.
         - Add in the event handler.
-
+- **Segment 5.0 (Tutorial): AJAX and Using AJAX in Redux:**
+- **Segment 5.1 (Tutorial): Rendering HTML with JSX:**
 
 
 
