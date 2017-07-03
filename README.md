@@ -80,6 +80,20 @@ This codebase will teach you how to integrate react-router and Redux. It uses cr
         - Inside of our component class, apply our action function/callback when React mounts our component.
     - For the purposes of confirming everything works correctly, you can `console.log()` inside of the reducer; but delete this after you've confirmed it works.
 - **Segment 5.1 (Tutorial): Rendering HTML with JSX:**
+    - Review the JSON and JSON schema returned by our AJAX GET.
+    - Review the current HTML template that the navigation component returns.
+    - We want to use the JSON to populate this template so that it becomes a dynamically loaded component rather than a static component.
+    - Our task is to transform the JSON into HTML using JS and JSX.
+    - This is mostly just a matter of writing vanilla JavaScript, as it is intended to work in React, specifically react components.
+    - There are many ways to do this. Here is how I broke the problem down:
+        - We see that the navigation has two levels of hierarchy:
+            - The parent level contains headers and list wrappers, which repeat for each navigation segment.
+            - The child level has list items, which repeat for each list item.
+        - First, we loop through the outer segments and build an array that represents the parent level (segment headers and segment items wrappers).
+        - For each item in this array, we will look at the child content (the list items) and build this repeating list HTML.
+        - We will use a helper function to build each list item.
+
+
 
 
 
