@@ -24,28 +24,5 @@ This codebase will teach you how to integrate react-router and Redux. It uses cr
 - **Segment 2.0: Using React Router to Create Your Second View:**
     - Create second React component, "Home".
         - This component is the home view.
-    - Configure routing. Link the Home component into the App component's router.
-- **Segment 3.0: Integrating Redux for Tracking History:**
-    - Create the Redux store.
-    - Combine all reducers to create the root reducer.
-    - Add in the Redux Provider component.
-    - Add in the react-router-redux ConnectedRouter component.
-    - Verify Redux is tracking browsing history as state using Redux dev tools.
-- **Segment 4.0 (Tutorial): A Navigation Component - Setup:**
-    - Create a third React component, "Tutorial".
-- **Segment 4.1 (Tutorial): A Navigation Component - Routing:**
-    - Configure routing. Link the Tutorial component into the App component's router.
-- **Segment 4.2 (Tutorial): A Navigation Component - Redux:**
-    - Create a basic action.
-    - Create the reducer and handle the case of your basic action.
-    - Connect your action to your component.
-        - Import module.
-        - Callback function.
-        - Map state to props.
-        - Map props to dispatch.
-        - Connect these to Redux.
-    - Add your reducer to the root reducer.
-
-
-
+        - Configure routing. Link the Home component into the App component's router.
 
