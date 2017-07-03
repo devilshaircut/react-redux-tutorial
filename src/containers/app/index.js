@@ -2,7 +2,10 @@
 // Module imports go here:
 // --------------------------------------------------
 
-import React from 'react';
+import React from 'react'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
+
+import Home from '../home'
 
 
 // --------------------------------------------------
@@ -11,14 +14,18 @@ import React from 'react';
 
 const App = () => {
   return(
-    <main>
-      Hello world!
-    </main>
+    <BrowserRouter>
+      <Switch>
+        <Route exact path='/' component={Home}/>
+      </Switch>
+    </BrowserRouter>
   )
 }
+
 
 // --------------------------------------------------
 // Module exports go here:
 // --------------------------------------------------
 
 export default App
+
